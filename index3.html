@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>조성준의 웹사이트</title>
+	</head>
+	<body>
+
+		<h1>조성준의 웹사이트 - 설문조사</h1>
+		<form>
+		<table border="1">
+			
+			<thead ></thead>
+			<tbody>
+				<tr>
+					<th>이름</th>
+					<th><input type="text" name="name" size=10></th>
+					<th>성별</th>
+					<th><input type="radio" name="sex" value="m"/>남
+					<input type="radio" name="sex" value="f"/>여</th>
+				</tr>
+				<tr>
+					<th>관심사</th>
+					<th colspan="3">
+						<input type="checkbox" name="hobby" value="music"/>음악 
+						<input type="checkbox" name="hobby" value="design"/>디자인 
+						<input type="checkbox" name="hobby" value="computer"/>컴퓨터
+					</th>
+				</tr>
+				<tr>
+					<th>이메일</th>
+					<th colspan="2">
+						<input type="text" name="email" size=17>
+					</th>
+					<th>
+						<input type="button" value="중복조회">
+					</th>
+				</tr>
+				<tr>
+					<th>동아리</th>
+					<th colspan="3">
+						<select name="group">
+							<option value="none">없음</option>
+							<option value="soulmate">소울메이트</option>
+							<option value="itdie">이따위</option>
+							<option value="mara">마라톤</option>
+							<option value="skt">슬기터</option>
+						</select>
+						<select name="group2">
+							<option value="none">없음</option>
+							<option value="soulmate">소울메이트</option>
+							<option value="itdie">이따위</option>
+							<option value="mara">마라톤</option>
+							<option value="skt">슬기터</option>
+						</select>
+					</th>
+				</tr>
+			</tbody>
+		</table>
+		<input type="button" value="제 출">
+		</form>
+
+		<i>링크로 가려면 클릭하세요 : </i>
+		<a href=index.html>메인페이지</a>
+		 / 
+		<a href=index2.html>활동 내역</a>
+
+	</body>
+</html>
