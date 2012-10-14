@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+	<meta charset="utf-8">
+	<title>조성준의 홈페이지</title>
+	<link href="stylesheets/main.css" rel="stylesheet" type="text/css"> 
+</head>
+<body id="all_over">
+<div id="wrap" style="border:2px solid black;">
+	
+	<div id="header">
+		<div id="h_top">
+			<img src="images/top.jpg" alt="상단타이틀">
+		</div>
+		<div id="h_bot">
+			<span id="h_bot_items">
+				<span onclick="frames['cont_frame'].location.href='index.html'">홈</span> | 
+				<span onclick="frames['cont_frame'].location.href='index2.html'">이력</span> | 
+				<span onclick="frames['cont_frame'].location.href='index3.html'">설문조사</span>
+			</span>
+		</div>
+		<div id="top">
+			<a href="">로그인</a> | 
+			<a href="">회원가입</a>
+	</div>
+	</div>
+	<div id="content">
+		<div id="sub_content">
+		<!-- Sub Content -->
+			<img src="images/logo_doc.png" alt="리스트아이콘">클릭하여 이동!<br><br>
+			<span onclick="frames['cont_frame'].location.href='index.html'" >홈</span> <br>
+			<span onclick="frames['cont_frame'].location.href='index2.html'">이력</span> <br>
+			<span onclick="frames['cont_frame'].location.href='index3.html'">설문조사</span> 
+		<!-- // Sub Content -->
+		</div>
+		<div id="main_content">
+		<!-- Main Content -->
+			<iframe seamless name="cont_frame" id="cont_frame" src="index.html" width="750" height="600" >
+			  <p>Your browser does not support iframes.</p>
+			</iframe>
+		<!-- // Main Content -->
+		</div>
+		
+	</div>
+	<div id="footer">
+		<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계와 법적 고지 | 고객센터 </p>
+		<p>
+		Copyright © Sungjune Cho. All rights reserved.
+		</p>
+	</div>
+</div>
+</body>
+</html>
+	
